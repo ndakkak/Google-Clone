@@ -1,0 +1,178 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.top {
+	width:auto;
+	height:50px; 
+}
+
+.top_right {
+	float: right;
+	padding: 20px 10px;
+
+}
+
+li {
+	display: inline;
+	padding: 5px;
+	margin-left: 10px;
+}
+
+.square {
+	position: relative;
+	top:10px;
+}
+
+.sign_in {
+	background-color: #3399FF;
+	color:white;
+	padding: 5px 8px 5px 8px;
+
+}
+
+.logo {
+	position: relative;
+	top: 100px;
+	margin-left: 500px;
+	clear: both;
+}
+
+.logo img {
+	max-width: 300px;
+}
+
+.gs {
+	background-color: #E8E8E8;
+	height: 10px;
+	width: 30px;
+	position: relative;
+	left:530px;
+	top: 20px;
+	border: 1px solid #C0C0C0;
+	padding: 5px;
+	font-weight: bold;
+	font-size: 12px;
+	color: #505050;
+}
+
+.lucky {
+	background-color: #E8E8E8;
+	height: 10px;
+	width: 30px;
+	position: relative;
+	left:540px;
+	top: 20px;
+	border: 1px solid #C0C0C0;
+	padding: 5px;
+	font-weight: bold;
+	font-size: 12px;
+	color: #505050;
+}
+
+.search {
+	border:1px solid #E0E0E0;
+	width: 500px;
+	height: 20px;
+	margin-top: 110px;
+	margin-left: 400px;
+}
+.search:hover {
+	border:1px solid #A8A8A8;
+}
+
+.search img {
+	max-height: 18px;
+	float:right;
+	padding: 1px;
+}
+
+.lucky_buttons {
+	margin-top: 10px;
+	margin-left: 515px;
+}
+
+.footer {
+	margin-top: 315px;
+	padding: 10px 10px 1px 10px;
+	background-color: #E8E8E8;
+	height: 22px;
+	position: fixed;
+}
+
+.left_footer {
+	float:left;
+	position: relative;
+	bottom: 5px;
+	color: #505050;
+}
+
+.right_footer {
+	float: right;
+	position: relative;
+	bottom: 5px;
+	color: #505050;
+	margin-left: 685px;
+
+}
+
+span {
+	color: #800000;
+}
+
+body { 
+  font-family: arial;
+}
+ 
+
+ 
+
+/*outline: 1px solid black; fix the footer stuck to the bottom of hte page*/
+
+
+
+
